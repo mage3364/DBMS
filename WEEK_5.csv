@@ -1,0 +1,9 @@
+payment_id,customer_name,order_id,payment_mode,payment_date,amount,payment_status
+701,"Rahul Sharma",3001,UPI,2026-09-01,8500.00,Successful
+702,"Priya Nair",3002,"Credit Card",2026-09-02,14200.00,Successful
+703,"Vikram Singh",3003,"Debit Card",2026-09-03,5600.00,Successful
+704,"Anjali Rao",3004,"Net Banking",2026-09-04,11800.00,Failed
+705,"Suresh Babu",3005,UPI,2026-09-05,9200.00,Successful
+706,"Rahul Sharma",3006,Cash,2026-09-06,2500.00,Successful
+707,"Vikram Singh",3007,UPI,2026-09-07,16500.00,Failed
+708,"Priya Nair",3008,"Credit Card",2026-09-08,7800.00,Successful
