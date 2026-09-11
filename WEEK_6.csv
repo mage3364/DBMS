@@ -1,0 +1,11 @@
+customer_id,customer_name,email,payment_id,order_id,payment_mode,payment_date,amount,payment_status
+101,"Rahul Sharma",rahul@gmail.com,701,3001,UPI,2026-09-01,8500.00,Successful
+102,"Priya Nair",priya@gmail.com,702,3002,"Credit Card",2026-09-02,14200.00,Successful
+103,"Vikram Singh",vikram@gmail.com,703,3003,"Debit Card",2026-09-03,5700.00,Successful
+104,"Anjali Rao",anjali@gmail.com,704,3004,"Net Banking",2026-09-04,11800.00,Failed
+105,"Suresh Babu",suresh@gmail.com,705,3005,UPI,2026-09-05,9200.00,Successful
+101,"Rahul Sharma",rahul@gmail.com,706,3006,Cash,2026-09-06,2500.00,Successful
+103,"Vikram Singh",vikram@gmail.com,707,3007,UPI,2026-09-07,16500.00,Failed
+102,"Priya Nair",priya@gmail.com,708,3008,"Credit Card",2026-09-08,7800.00,Successful
+106,"Kavya Iyer",kavya@gmail.com,709,3009,UPI,2026-09-09,6300.00,Successful
+107,"Arun Kumar",arun@gmail.com,710,3010,"Debit Card",2026-09-10,9900.00,Successful
