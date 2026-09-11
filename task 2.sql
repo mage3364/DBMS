@@ -1,0 +1,31 @@
+CREATE DATABASE StudentDB;
+
+USE StudentDB;
+
+CREATE TABLE Students (
+    StudentID VARCHAR(10) PRIMARY KEY,
+    Age INT,
+    Gender VARCHAR(10),
+    Department VARCHAR(30),
+    YearLevel INT,
+    Attendance INT,
+    Marks INT,
+    AvgFee DECIMAL(10,2),
+    TotalFee DECIMAL(10,2)
+);
+
+INSERT INTO Students
+(StudentID, Age, Gender, Department, YearLevel, Attendance, Marks, AvgFee, TotalFee)
+VALUES
+('S001', 19, 'Male', 'Computer Science', 2, 92, 88, 45000.00, 90000.00),
+('S002', 20, 'Female', 'Information Tech', 2, 95, 91, 48000.00, 96000.00),
+('S003', 18, 'Male', 'Business Analytics', 1, 89, 78, 42000.00, 84000.00),
+('S004', 21, 'Female', 'Computer Science', 3, 97, 94, 45000.00, 135000.00),
+('S005', 20, 'Male', 'Mechanical', 2, 85, 72, 40000.00, 80000.00),
+('S006', 19, 'Female', 'Information Tech', 1, 91, 86, 48000.00, 48000.00),
+('S007', 21, 'Male', 'Business Analytics', 3, 96, 90, 42000.00, 126000.00),
+('S008', 20, 'Female', 'Civil Engineering', 2, 88, 81, 41000.00, 82000.00),
+('S009', 18, 'Male', 'Computer Science', 1, 93, 89, 45000.00, 45000.00),
+('S010', 22, 'Female', 'Electronics', 4, 98, 95, 43000.00, 172000.00);
+
+SELECT * FROM Students;
